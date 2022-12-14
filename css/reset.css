@@ -1,10 +1,21 @@
+@font-face{
+  font-family: 'AppleSDGothicNeoL';
+  src: url(../font/AppleSDGothicNeoL.ttf)format('truetype');
+}
+@font-face{
+  font-family: 'AppleSDGothicNeoB';
+  src: url(../font/AppleSDGothicNeoB.ttf)format('truetype');
+}
 *{margin: 0; padding: 0;}
 ul{list-style: none;}
 a{text-decoration: none; color: inherit;}
-body{
-  font-family: Arial, Helvetica, sans-serif;
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
 }
-.wrap{
-  width: 1300px;
-  margin: auto;
+body{
+  font-family: "AppleSDGothicNeoL";
+  background-color: #222831;
+  color: #eee;
 }
